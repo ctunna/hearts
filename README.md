@@ -1,9 +1,9 @@
-HEARTS v1.0 by Carson Tunna 10046942
+# Hearts
 
 This is an implementation of the classic card game hearts that was
 used as tool to familiarize myself with socket programming. This
 program is written using python2.7, but should be compatible with
-python2.6. Python2.6 is installed on the EC2 servers.
+python2.6. Python2.6 is installed by default on the EC2 servers.
 
 * hearts/
 
@@ -25,14 +25,13 @@ python2.6. Python2.6 is installed on the EC2 servers.
 
 * General
 
-IMPORTANT
-=========
+## IMPORTANT
 
-    To play a card type [suit],[rank] when prompted. For
-    example to play the queen of spades: s,12
-            
-    If your input isn't given in this format the behavior is undefined.
-    
-    Ace is 1 ..... King is 13.
 
-    Game is over when a player racks up at least 100 points. Server shuts down.
+To play a card type [suit],[rank] when prompted. For example to play the queen of spades: s,12
+
+If your input isn't given in this format the behavior is undefined.
+
+Ace is 1 ..... King is 13.
+
+Game is over when a player racks up at least 100 points. Server shuts down.
