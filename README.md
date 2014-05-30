@@ -23,8 +23,6 @@ python2.6. Python2.6 is installed by default on the EC2 servers.
     Keeps track of game state with Hearts module. Sends CARD
     reply to server after receiving a PLAY request.
 
-* General
-
 ## IMPORTANT
 
 
