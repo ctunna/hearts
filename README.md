@@ -13,12 +13,11 @@ Python2.7 in mind but should be compatible with 2.6.
     Hearts server. Four clients connect to the server an are
     assigned names North, East, South, and west in the order they join.
     Obviously the server must be started before the clients can connect.
-    Server keeps track of Hearts game state with the hearts module. Send a
-    variety of requests to client including, PLAY, SCORE, and DEAL.
-
+    Server keeps track of Hearts game state with the hearts module.
+    
 * client.py
 
-    Keeps track of game state with Hearts module. Sends CARD
+    Keeps track of players state with Hearts module. Sends CARD
     reply to server after receiving a PLAY request.
 
 ## IMPORTANT
