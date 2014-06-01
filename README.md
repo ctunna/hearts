@@ -1,9 +1,8 @@
 # Hearts
 
 This is an implementation of the classic card game hearts that was
-used as a tool to familiarize myself with socket programming. In
-python2.7, but should be compatible with python2.6. Python2.6 is
-installed by default on the EC2 servers.
+used as a tool to familiarize myself with socket programming. Written with 
+Python2.7 in mind but should be compatible with 2.6.
 
 * hearts/
 
