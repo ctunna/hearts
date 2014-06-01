@@ -1,14 +1,13 @@
 # Hearts
 
 This is an implementation of the classic card game hearts that was
-used as tool to familiarize myself with socket programming. This
-program is written using python2.7, but should be compatible with
-python2.6. Python2.6 is installed by default on the EC2 servers.
+used as a tool to familiarize myself with socket programming. In
+python2.7, but should be compatible with python2.6. Python2.6 is
+installed by default on the EC2 servers.
 
 * hearts/
 
-    Hearts is a module I made to keep track of game state, the
-    deck, and players.
+    Hearts is a module I made to keep track of various game state within the deck and player hands
 
 * server.py
 
@@ -32,4 +31,4 @@ If your input isn't given in this format the behavior is undefined.
 
 Ace is 1 ..... King is 13.
 
-Game is over when a player racks up at least 100 points. Server shuts down.
+Game is over when a player racks up at least 100 points then the server will shut down.
